@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-  <body class="vh-vw">
-    <div class="row height-header">
+  <body>
+    <div class="container-fluid row  height-header ">
         <div class="col-2">
             <img src="./img/logo.svg" alt="">
         </div>
@@ -22,25 +22,27 @@
                 </div>
               </nav>
         </div>
-        <div class="col-2">
-            <div class="row-sm">
-                <div class="col-sm-12">
-                    <i class="fa-solid fa-bell"></i>
+        <div class="col-2 bg-danger">
+           <!-- <div class="row">
+                <div class="col-12">
+                    
                 </div>
-            </div>
+                
+            </div>-->
+            <i class="fa-solid fa-bell"></i>
         </div>
     </div>
-    <div class="row height-main-sidedbar">
-        <div class=" sidebar col-2  bg-dark">
+    <div class="container-fluid row  height-main-sidedbar">
+        <div class="sidebar col-2  bg-dark">
 
         </div>
-        <div class="col-10">
+        <div class="col-10  container-fluid">
 
             <!--  MAIN BLU  -->
 
-            <div class="row bg-row-main text-white">
+            <div class=" row bg-row-main text-white">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-lg-8">
                         <h3>Boolean</h3>
                         <span class="badge bg-badges">Piano blaze</span>
                         <!--
@@ -52,7 +54,7 @@
                           -->
                           
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         Studenti online negli ultimi 3 minuti
                     </div>
                 </div>
@@ -74,7 +76,7 @@
             <!-- PRIMA COLONNA MAIN-->
             <div class="row">
                 <div class="col-8 ">
-                    <div class="container bg-prossimeclassi p-3 d-flex justify-content-between my-2 border border-secondary" >
+                    <div class="bg-prossimeclassi p-3 d-flex justify-content-between my-2 border border-secondary" >
                         <h4>Prossime classi</h4>
                         <div>
                             <button class="btn bg-prossimeclassi text-primary btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">+</button>
@@ -94,7 +96,7 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th scope="col">Nome</th>
+                                <th class="w-50" scope="col">Nome</th>
                                 <th scope="col">Data inizio</th>
                                 <th scope="col">ROI</th>
                                 <th scope="col">Stato</th>
@@ -107,48 +109,57 @@
                                 <td>15 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-success">Done</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
+                                
                             </tr>
                             <tr>
                                 <th scope="row">Classe 76</th>
                                 <td>16 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-success">Done</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                             <tr>
-                                <th scope="row">Classe 77</th>
+                                <th  scope="row">Classe 77</th>
                                 <td>17 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-warning">Process</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                             <tr>
-                                <th scope="row">Classe 78</th>
+                                <th  scope="row">Classe 78</th>
                                 <td>18 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-success">Done</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                             <tr>
-                                <th scope="row">Classe 79</th>
+                                <th  scope="row">Classe 79</th>
                                 <td>19 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-danger">Failed</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                             <tr>
-                                <th scope="row">Classe 80</th>
+                                <th  scope="row">Classe 80</th>
                                 <td>20 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-success">Done</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                             <tr>
-                                <th scope="row">Classe 81</th>
+                                <th  scope="row">Classe 81</th>
                                 <td>21 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-danger">Failed</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                             <tr>
                                 <th scope="row">Classe 82</th>
                                 <td>22 Feb 2021</td>
                                 <td>20%</td>
                                 <td><span class="badge bg-success">Done</span></td>
+                                <td><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i><span><button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-basket-shopping"></i></button></span></button></td>
                             </tr>
                         </tbody>
                     </table>
@@ -164,7 +175,7 @@
                 </div>
 
             
-            
+            </div>    
         </div>
     </div>
 

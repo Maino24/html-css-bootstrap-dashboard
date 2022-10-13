@@ -1,4 +1,4 @@
-.vh-vw{
+body{
     width: 100vw;
     height: 100vh;
 }
@@ -8,13 +8,14 @@
 }
 
 .height-main-sidedbar{
-    height: calc(100vh - 50px);
+    height: calc(100% - 50px);
 }
 
 .sidebar{
     background-image: url(../img/sidebar-bg.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 .bg-row-main{
@@ -32,8 +33,4 @@
 
 .bg-prossimeclassi{
     background-color: #F7F7F7;
-}
-
-.row{
-    margin-right: 0;
 }
