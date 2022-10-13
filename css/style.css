@@ -2,3 +2,38 @@
     width: 100vw;
     height: 100vh;
 }
+
+.height-header{
+    height: 70px;
+}
+
+.height-main-sidedbar{
+    height: calc(100vh - 50px);
+}
+
+.sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-row-main{
+    background-color: #1A73E8;
+}
+
+/*.bg-breadcrumb{
+    background-color: #155CBA;
+}*/
+
+.bg-badges{
+    background-color: #155CBA;
+}
+
+
+.bg-prossimeclassi{
+    background-color: #F7F7F7;
+}
+
+.row{
+    margin-right: 0;
+}
