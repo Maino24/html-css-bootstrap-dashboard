@@ -18,17 +18,21 @@ body{
     height: 100%;
 }
 
-.bg-row-main{
-    background-color: #1A73E8;
+
+.breadcrumb-item+.breadcrumb-item::before{
+    color: white;
 }
 
-/*.bg-breadcrumb{
-    background-color: #155CBA;
-}*/
+.badge,
+.breadcrumb-item span{
+    background-color: #295eb9;
+}    
 
-.bg-badges{
-    background-color: #155CBA;
+.badge:hover,
+.breadcrumb-item span:hover{
+    background-color: #102a54;
 }
+
 
 
 .bg-prossimeclassi{
