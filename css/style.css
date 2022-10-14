@@ -39,6 +39,20 @@ body{
     background-color: #F7F7F7;
 }
 
+.img-tabella{
+    max-width: 20px;
+}
+
+th,
+td{
+    text-align: center;
+}
+
+th:first-child,
+td:first-child{
+    text-align: left;
+}
+
 .img-destra{
     width: 100%;
 }
