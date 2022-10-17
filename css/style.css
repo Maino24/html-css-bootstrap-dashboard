@@ -77,6 +77,9 @@ li{
 .hover-trasparente:hover{
     background-color: rgba(251, 251, 251, 0.35);
 }
+.hover-grigio:hover{
+    background-color: rgb(237, 237, 237);
+}
 
 @media screen and (min-width: 992px){
     .offcanvas.offcanvas-end{
