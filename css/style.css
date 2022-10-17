@@ -4,11 +4,11 @@ body{
 }
 
 .height-header{
-    height: 70px;
+    height: 10vh;
 }
 
 .height-main-sidedbar{
-    height: calc(100% - 50px);
+    height: 90vh;
 }
 
 .sidebar{
